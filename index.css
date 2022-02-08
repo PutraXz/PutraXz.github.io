@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 100%) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: white;
+        color: #fff;
+        height: 100vh;
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: #fff;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    float: left;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar ul {
+    float: left;
+    list-style: none;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar li a {
+    display: inline-block;
+    color: white;
+}
+
+
+/* .navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+} */
+
+.navbar ul li a:hover {
+    color: skyblue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.gambar {
+    position: absolute;
+    width: 300px;
+    left: 100px;
+    bottom: 200px;
+}
+
+
+/* gambar */
+
+.n {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    text-decoration: underline;
+}
+
+.tabel1 {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    width: 720px;
+    height: 200px;
+    background: transparent;
+    border: solid 1px black;
+}
+
+.tabel2 {
+    position: absolute;
+    left: 10px;
+    top: 380px;
+    width: 720px;
+    height: 200px;
+    background: transparent;
+    border: solid 1px black;
+}
+
+.picne {
+    position: absolute;
+    width: 265px;
+    height: 201px;
+    top: 0px;
+    left: 0px;
+}
+
+.picne2 {
+    position: absolute;
+    width: 265px;
+    height: 201px;
+    top: 0px;
+    left: 0px;
+}
+
+.kabe1 {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 300px;
+    width: 400px;
+    top: 40px;
+}
+
+.kabe2 {
+    font-size: 10px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+.kabe3 {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 300px;
+    width: 400px;
+    top: 40px;
+}
+
+.kabe4 {
+    font-size: 10px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+
+/* kata */
+
+.kata1 {
+    font-size: 50px;
+    position: absolute;
+    bottom: 370px;
+    left: 550px;
+    color: whitesmoke;
+}
+
+.kata2 {
+    font-size: 25px;
+    position: absolute;
+    bottom: 250px;
+    width: 700px;
+    left: 530px;
+    color: white;
+}
+
+.span1 {
+    font-weight: bold;
+}
+
+
+/* navbar */
+
+.home {
+    background-image: url('logo1.png');
+}
+
+.ho {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 260px;
+    font-family: Georgia;
+    color: seashell;
+}
+
+.abo {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 748px;
+    font-family: Georgia;
+    color: seashell;
+}
+
+.ser {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 816px;
+    font-family: Georgia;
+    color: seashell;
+}
+
+.co {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 896px;
+    font-family: Georgia;
+    color: seashell;
+}
+
+.ju {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 330px;
+    font-family: Georgia;
+    color: seashell;
+}
+
+.blog {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 415px;
+    font-family: Georgia;
+    color: seashell;
+}
+
+.esk {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 465px;
+    font-family: Georgia;
+    color: seashell;
+}
+
+.do {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 615px;
+    font-family: Georgia;
+    color: seashell;
+}
+
+.li {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 1060px;
+    font-family: georgia;
+    color: seashell;
+}
+
+.re {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 1160px;
+    font-family: georgia;
+    color: seashell;
+}
+
+
+/* maps */
+
+.maps {
+    position: absolute;
+    top: 1500px;
+    left: 20px;
+}
+
+.kontak {
+    font-weight: bold;
+    position: absolute;
+    top: 1700px;
+    left: 750px;
+}
+
+.alamat {
+    position: absolute;
+    top: 1730px;
+    left: 750px;
+}
+
+.alamat2 {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.telpon {
+    position: absolute;
+    top: 1800px;
+    left: 750px;
+}
+
+.email {
+    position: absolute;
+    top: 1840px;
+    left: 750px;
+}
+
+
+/* footer */
+
+#footer {
+    background: white;
+    position: absolute;
+    top: 2000px;
+    width: 100%;
+}
+
+#footer a.title {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    min-height: 1000px;
+}
+
+
+/* drop */
+
+li.ju {
+    display: inline-block;
+    color: white;
+}
+
+.ju:hover .isi-ju {
+    display: block;
+    color: white;
+}
+
+.isi-ja:hover {
+    color: #fff !important;
+}
+
+.isi-ju {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+li.blog {
+    display: inline-block;
+    color: white;
+}
+
+.blog:hover .isi-blog {
+    display: block;
+    color: white;
+}
+
+.isi-blog:hover {
+    color: #fff !important;
+}
+
+.isi-blog {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* readmore */
+
+.readmore {
+    position: absolute;
+    top: 600px;
+    left: 645px;
+}
+
+.berita {
+    position: absolute;
+    border: 1px solid black;
+    width: 1338px;
+    height: 100%;
+}
