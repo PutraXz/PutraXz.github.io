@@ -1,2 +1,2 @@
-putraxz.github.io
+index.php
 website sekolah
